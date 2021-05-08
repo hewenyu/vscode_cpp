@@ -1,5 +1,26 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_sortIncludes": true,
+
+    "[c]": {
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "comments": false,
+            "other": true,
+            "strings": false
+        },
+        "editor.tabSize": 2
+    },
+    "[cpp]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+
+    // "C/C++ Include Guard.Comment Style": "Line",
+    // "C/C++ Include Guard.Macro Type": "Filepath",
+    // "C/C++ Include Guard.Remove Extension": false,
+    // "C/C++ Include Guard.Suffix": "_",
 }
