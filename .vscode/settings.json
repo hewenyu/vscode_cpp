@@ -2,8 +2,13 @@
     "files.associations": {
         "iostream": "cpp"
     },
+    // "clang.executable": "clang",
+
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_sortIncludes": true,
+
+    "clang.completion.enable": true,//自动补全
+    "clang.completion.triggerChars": [".",":",">"],
 
     "[c]": {
         "editor.formatOnSave": true,
@@ -12,11 +17,11 @@
             "other": true,
             "strings": false
         },
-        "editor.tabSize": 2
+        "editor.tabSize": 4
     },
     "[cpp]": {
         "editor.formatOnSave": true,
-        "editor.tabSize": 2
+        "editor.tabSize": 4
     },
 
     // "C/C++ Include Guard.Comment Style": "Line",

@@ -4,7 +4,9 @@
 using namespace std;
 
 int main() {
-    const int month = 1;
+    const int month = 12;
+    
+    cout << "Output: " << month << "\n\n";
     cout << "Hello World\n";
     cout << "Input: ";
     string data;
